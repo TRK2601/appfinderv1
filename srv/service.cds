@@ -1,5 +1,6 @@
 using {com.mindset.accelerator.merlincapmsrv as schema} from '../db/data-model';
 // @(requires: 'authenticated-user')
+
 @path: '/api/v2/srv/ZMINDSET_S4APPFINDER_SRV'
 service ZMINDSET_S4_APP_FINDER_SRV {
   entity VariantSet as projection on schema.Variant;
