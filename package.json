@@ -32,7 +32,7 @@
   "cds": {
     "requires": {
       "auth": "mocked",
-      "db": "sql",
+      "db": "hana",
       "[production]": {
         "db": "hana",
         "auth": "mocked"
